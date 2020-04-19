@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                     doubleValue *= -1
                     newNumber.setText(doubleValue.toString())
                 } catch (e: NumberFormatException) {
-                    // newNumber was "-" or ".", so clear it
+                    //newNumber was "-" or ".", so clear it
                     newNumber.setText("")
                 }
             }
